@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 driver.get("https://demoqa.com/automation-practice-form")
 wait = WebDriverWait(driver, 10)
 
-with open(r"C:\Users\VIMAL RAJ\OneDrive\Desktop\Tasks\Task_2\data.csv", 'r', encoding='utf-8-sig') as file:
+with open(r"C:\Users\nishanth\OneDrive\Desktop\Tasks\Task_2\data.csv", 'r', encoding='utf-8-sig') as file:
     reader = csv.DictReader(file)
 
     for input in reader:
